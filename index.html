@@ -199,7 +199,7 @@
         .hero-logo { width: 100%; height: auto; display: block; }
         @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
         @media (max-width: 768px) { .hero-logo-wrap { margin-bottom: 2rem; } }
-        .hero { background: linear-gradient(170deg, var(--dark) 0%, #0d0d2b 50%, #12082a 100%); color: var(--white); padding: 9rem 0 5.5rem; position: relative; overflow: hidden; }
+        .hero { background: linear-gradient(170deg, var(--dark) 0%, #0d0d2b 50%, #12082a 100%); color: var(--white); padding: 11.5rem 0 5.5rem; position: relative; overflow: hidden; }
         .hero::before { content: ''; position: absolute; top: -50%; right: -20%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(0,200,224,0.06) 0%, transparent 70%); pointer-events: none; }
         .hero::after { content: ''; position: absolute; bottom: -30%; left: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(95,28,147,0.06) 0%, transparent 70%); pointer-events: none; }
         .hero-content { max-width: 720px; position: relative; z-index: 1; }
@@ -382,7 +382,7 @@
             .trust-grid { grid-template-columns: repeat(2, 1fr); }
             .science-stats { grid-template-columns: 1fr 1fr; }
             .form-row { grid-template-columns: 1fr; }
-            .hero { padding: 7rem 0 5rem; }
+            .hero { padding: 9.5rem 0 5rem; }
             .footer-inner { flex-direction: column; text-align: center; gap: 1rem; }
         }
         @media (max-width: 480px) {
@@ -392,6 +392,13 @@
 
         /* Honeypot */
         .ohnohoney { opacity: 0; position: absolute; top: 0; left: 0; height: 0; width: 0; z-index: -1; }
+
+        /* Announcement Bar */
+        .announcement-bar { background: linear-gradient(90deg, var(--purple), #3a0a5e); padding: 0.75rem 0; text-align: center; position: fixed; top: 72px; left: 0; right: 0; z-index: 999; border-bottom: 1px solid rgba(255,0,255,0.15); }
+        .announcement-bar p { font-size: 0.82rem; color: rgba(255,255,255,0.9); font-weight: 500; margin: 0; }
+        .announcement-bar strong { color: var(--gold); font-weight: 700; }
+        .announcement-bar a { color: var(--cyan); font-weight: 600; transition: color 0.3s; }
+        .announcement-bar a:hover { color: var(--white); }
     </style>
 </head>
 <body>
@@ -405,10 +412,18 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/services.html">Programs</a></li>
                 <li><a href="/about.html">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
                 <li><a href="#contact" class="nav-cta">Book a Consultation</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- ========== GRAND OPENING ANNOUNCEMENT ========== -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p><strong>Grand Opening &mdash; May 2, 2026</strong> &middot; 10:00 AM&ndash;12:00 PM &middot; Come experience Quantic. <a href="/blog/quantic-spring-events-2026.html">See all upcoming events &rarr;</a></p>
+        </div>
+    </div>
 
     <!-- ========== HERO (Dark) ========== -->
     <section class="hero">
@@ -727,6 +742,7 @@
                 <a href="/">Home</a>
                 <a href="/services.html">Programs</a>
                 <a href="/about.html">About</a>
+                <a href="/blog/">Blog</a>
                 <a href="#contact">Contact</a>
                 <a href="https://www.instagram.com/quanticwellness/" target="_blank" rel="noopener">Instagram</a>
             </div>

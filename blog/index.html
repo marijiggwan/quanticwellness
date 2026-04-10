@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9QHZV2X5LB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-9QHZV2X5LB');
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Quantic Wellness Collective | Asheville NC</title>
+    <meta name="description" content="Wellness insights, community events, and movement tips from Quantic Wellness Collective in Asheville, NC. Science-backed guidance for strength, recovery, and longevity.">
+    <meta name="keywords" content="wellness blog Asheville, fitness tips, personal training insights, stress management, Quantic Wellness">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://quanticwellness.com/blog/">
+
+    <meta property="og:title" content="Blog | Quantic Wellness Collective">
+    <meta property="og:description" content="Wellness insights, community events, and movement tips from Quantic Wellness Collective in Asheville, NC.">
+    <meta property="og:image" content="https://quanticwellness.com/og-image.jpg">
+    <meta property="og:url" content="https://quanticwellness.com/blog/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog | Quantic Wellness Collective">
+    <meta name="twitter:description" content="Wellness insights, community events, and movement tips from Quantic Wellness Collective in Asheville, NC.">
+    <meta name="twitter:image" content="https://quanticwellness.com/og-image.jpg">
+
+    <meta name="geo.region" content="US-NC">
+    <meta name="geo.placename" content="Asheville">
+    <meta name="geo.position" content="35.5946;-82.5540">
+    <meta name="ICBM" content="35.5946, -82.5540">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --cyan: #00c8e0;
+            --navy: #1a1a2e;
+            --dark: #07071a;
+            --gold: #feda15;
+            --green: #55ff00;
+            --pink: #ff00ff;
+            --purple: #5f1c93;
+            --white: #ffffff;
+            --off-white: #f8f9fa;
+            --text-dark: #1a1a2e;
+            --text-mid: #4a4a5a;
+            --text-light: #8a8a9a;
+            --font: 'Wix Madefor Display', sans-serif;
+        }
+
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font); color: var(--text-dark); line-height: 1.65; background: var(--white); -webkit-font-smoothing: antialiased; }
+        img { max-width: 100%; height: auto; display: block; }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+
+        .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(7,7,26,0.95); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(0,200,224,0.08); transition: all 0.3s; }
+        .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+        .nav-logo { font-weight: 800; font-size: 1.3rem; letter-spacing: 0.18em; color: var(--cyan); text-transform: uppercase; }
+        .nav-logo span { display: block; font-size: 0.55rem; letter-spacing: 0.22em; color: rgba(255,255,255,0.5); font-weight: 500; text-transform: uppercase; margin-top: -2px; }
+        .nav-links { list-style: none; display: flex; align-items: center; gap: 2.5rem; }
+        .nav-links a { color: rgba(255,255,255,0.7); font-size: 0.85rem; font-weight: 500; letter-spacing: 0.04em; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--cyan); }
+        .nav-cta { background: var(--cyan); color: var(--dark) !important; padding: 0.6rem 1.5rem; border-radius: 6px; font-weight: 700; transition: all 0.3s !important; }
+        .nav-cta:hover { background: var(--white); transform: translateY(-1px); }
+        .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+        .nav-toggle span { width: 24px; height: 2px; background: var(--white); transition: 0.3s; }
+
+        .blog-header { background: linear-gradient(170deg, var(--dark) 0%, #0d0d2b 50%, #12082a 100%); color: var(--white); padding: 8rem 0 3.5rem; position: relative; overflow: hidden; }
+        .blog-header::before { content: ''; position: absolute; top: -50%; right: -20%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(0,200,224,0.06) 0%, transparent 70%); pointer-events: none; }
+        .blog-header h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15; margin-bottom: 0.75rem; }
+        .blog-header p { color: rgba(255,255,255,0.6); font-size: 1rem; max-width: 580px; }
+
+        .blog-list { padding: 4rem 0 5rem; }
+        .post-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 900px; }
+        .post-card { background: var(--off-white); border: 1px solid #eee; border-radius: 14px; padding: 2.25rem; transition: all 0.4s; display: flex; flex-direction: column; }
+        .post-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.06); border-color: rgba(0,200,224,0.3); }
+        .post-tag { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--cyan); margin-bottom: 0.75rem; }
+        .post-card h2 { font-size: 1.2rem; font-weight: 800; line-height: 1.25; margin-bottom: 0.75rem; }
+        .post-card h2 a { transition: color 0.3s; }
+        .post-card h2 a:hover { color: var(--cyan); }
+        .post-excerpt { font-size: 0.9rem; color: var(--text-mid); line-height: 1.65; margin-bottom: 1.25rem; flex-grow: 1; }
+        .post-meta { font-size: 0.78rem; color: var(--text-light); }
+        .read-more { display: inline-block; font-size: 0.85rem; font-weight: 700; color: var(--cyan); transition: color 0.3s; }
+        .read-more:hover { color: var(--purple); }
+
+        .footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.06); padding: 2.5rem 0; }
+        .footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; }
+        .footer-copy { font-size: 0.75rem; color: rgba(255,255,255,0.4); }
+        .footer-copy strong { color: rgba(255,255,255,0.6); }
+        .footer-links { display: flex; gap: 2rem; }
+        .footer-links a { font-size: 0.78rem; color: rgba(255,255,255,0.5); transition: color 0.3s; }
+        .footer-links a:hover { color: var(--cyan); }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(7,7,26,0.98); backdrop-filter: blur(20px); padding: 2rem; gap: 1.5rem; border-bottom: 1px solid rgba(0,200,224,0.1); }
+            .nav-toggle { display: flex; }
+            .blog-header { padding: 7rem 0 3rem; }
+            .post-cards { grid-template-columns: 1fr; }
+            .footer-inner { flex-direction: column; text-align: center; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-logo">QUANTIC<span>Wellness Collective</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services.html">Programs</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact" class="nav-cta">Book a Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="blog-header">
+        <div class="container">
+            <h1>The Quantic Blog</h1>
+            <p>Wellness insights, community events, and movement guidance from Garret McCann and Maria Laverde in Asheville, NC.</p>
+        </div>
+    </section>
+
+    <section class="blog-list">
+        <div class="container">
+            <div class="post-cards">
+                <div class="post-card">
+                    <p class="post-tag">Community Events</p>
+                    <h2><a href="/blog/quantic-spring-events-2026.html">What&rsquo;s Happening at Quantic This Spring</a></h2>
+                    <p class="post-excerpt">Jogging club, free BIPOC yoga, fitness sampler, breathwork, and our Grand Opening May 2. Here&rsquo;s everything coming up this spring.</p>
+                    <p class="post-meta">April 10, 2026</p>
+                </div>
+                <div class="post-card">
+                    <p class="post-tag">Stress Awareness Month</p>
+                    <h2><a href="/blog/stress-strength-and-space-to-breathe.html">Stress, Strength &amp; Space to Breathe</a></h2>
+                    <p class="post-excerpt">Stress is part of life, but how we move through it changes everything. The Quantic approach to regulation, release, and intentional movement.</p>
+                    <p class="post-meta">April 10, 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="footer-copy">&copy; 2026 <strong>Quantic Wellness Collective</strong> &middot; 125 E Chestnut St, Suite 2 &middot; Asheville, NC 28801</p>
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/services.html">Programs</a>
+                <a href="/about.html">About</a>
+                <a href="/blog/">Blog</a>
+                <a href="/#contact">Contact</a>
+                <a href="https://www.instagram.com/quanticwellness/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const links = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => links.classList.toggle('open'));
+        window.addEventListener('scroll', () => {
+            document.getElementById('nav').style.background = window.scrollY > 50 ? 'rgba(7,7,26,0.98)' : 'rgba(7,7,26,0.95)';
+        });
+    </script>
+</body>
+</html>
