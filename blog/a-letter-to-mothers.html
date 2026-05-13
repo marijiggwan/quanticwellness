@@ -50,7 +50,7 @@
         "headline": "A Letter to Mothers",
         "description": "A Mother's Day reflection from Mapa Laverde, co-founder of Quantic Wellness Collective and birth and postpartum doula.",
         "datePublished": "2026-05-10",
-        "dateModified": "2026-05-12",
+        "dateModified": "2026-05-13",
         "author": [
             {"@type": "Person", "name": "Mapa Laverde"},
             {"@type": "Person", "name": "Garret McCann"}
@@ -115,7 +115,8 @@
         /* BLOG CONTENT */
         .blog-body { padding: 4rem 0 5rem; }
         .blog-content { max-width: 760px; }
-        .blog-hero { margin: 0 auto 2.75rem; max-width: 520px; border-radius: 14px; overflow: hidden; box-shadow: 0 20px 50px rgba(7,7,26,0.12); }
+        .blog-hero { max-width: 300px; margin: 0.25rem 0 1.5rem 1.75rem; float: right; border-radius: 14px; overflow: hidden; box-shadow: 0 12px 35px rgba(7,7,26,0.12); }
+        .blog-hero.float-left { float: left; margin: 0.25rem 1.75rem 1.5rem 0; }
         .blog-hero img { width: 100%; height: auto; display: block; }
         .blog-content p { font-size: 1.05rem; color: var(--text-mid); line-height: 1.8; margin-bottom: 1.5rem; }
         .blog-content p.stanza { margin-bottom: 1.75rem; }
@@ -138,6 +139,10 @@
         .footer-links { display: flex; gap: 2rem; }
         .footer-links a { font-size: 0.78rem; color: rgba(255,255,255,0.5); transition: color 0.3s; }
         .footer-links a:hover { color: var(--cyan); }
+
+        @media (max-width: 700px) {
+            .blog-hero, .blog-hero.float-left { float: none; max-width: 100%; margin: 0 auto 2rem; }
+        }
 
         @media (max-width: 768px) {
             .nav-links { display: none; }
