@@ -32,7 +32,7 @@
     </url>
     <url>
         <loc>https://quanticwellness.com/blog/</loc>
-        <lastmod>2026-07-19</lastmod>
+        <lastmod>2026-08-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -57,6 +57,12 @@
     <url>
         <loc>https://quanticwellness.com/blog/quantic-spring-events-2026.html</loc>
         <lastmod>2026-04-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://quanticwellness.com/blog/client-spotlight-loren-greiff-tedx.html</loc>
+        <lastmod>2026-08-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
